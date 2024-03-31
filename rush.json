@@ -415,6 +415,10 @@
     {
       "packageName": "big-file-pc",
       "projectFolder": "packages/big-file/big-file-pc"
+    },
+    {
+      "packageName": "big-file-server",
+      "projectFolder": "packages/big-file/big-file-server"
     }
   ]
 }
