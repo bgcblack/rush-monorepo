@@ -413,12 +413,24 @@
     // }
 
     {
-      "packageName": "big-file-pc",
+      "packageName": "@file/big-file-pc",
       "projectFolder": "packages/big-file/big-file-pc"
     },
     {
-      "packageName": "big-file-server",
+      "packageName": "@file/big-file-server",
       "projectFolder": "packages/big-file/big-file-server"
+    },
+    {
+      "packageName": "@file/file-storage",
+      "projectFolder": "packages/big-file/file-storage"
+    },
+    {
+      "packageName": "@devil-infra/ts-config",
+      "projectFolder": "config/ts-config"
+    },
+    {
+      "packageName": "@devil-arch/logger",
+      "projectFolder": "packages/archive/logger"
     }
   ]
 }

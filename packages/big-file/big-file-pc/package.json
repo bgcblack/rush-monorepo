@@ -1,5 +1,5 @@
 {
-  "name": "big-file-pc",
+  "name": "@file/big-file-pc",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -25,7 +25,8 @@
     "@vue/cli-service": "~5.0.0",
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
-    "typescript": "~4.5.5"
+    "typescript": "~4.5.5",
+    "@file/big-file-server": "workspace:*"
   },
   "browserslist": [
     "> 1%",
