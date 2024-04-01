@@ -12,7 +12,10 @@
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0",
-    "@types/node": "~20.12.2"
+    "@types/node": "~20.12.2",
+    "axios": "~1.6.8",
+    "element-plus": "~2.6.3",
+    "webpack": "^5.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
