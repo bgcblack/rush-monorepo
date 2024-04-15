@@ -17,3 +17,6 @@ pnpm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### add package
+rush add --package xxx@xxx --dev

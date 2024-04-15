@@ -13,6 +13,7 @@
 import axios from 'axios';
 import {ref } from "vue";
 import { type FilePiece, splitFile } from "../utils/file"
+import { createHash} from "../utils/hash"
 
 const file = ref<File | null>(null);
 const fileChunks = ref<FilePiece[]>([]);
@@ -32,7 +33,8 @@ async function onStartUpload() {
   //进行分片
   const fileChunkList = splitFile(file.value);
   fileChunks.value = fileChunkList
-  console.log(fileChunkList);
+  console.log(fileChunkList,"fileChunkList");
+  createHash({ chunks: fileChunkList });
   //开始上传
   //await uploadChunks({})
 }

@@ -23,6 +23,8 @@
    }
    return fileChunkList
  }
+
+ 
  /** 
   * @pieces 所有的文件分片
   * @hash 计算好的
